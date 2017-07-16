@@ -1,3 +1,4 @@
+
 /*header part*/
 
 .header-container {
@@ -34,11 +35,10 @@
 }
 
 /*body part*/
-
 .body-container {
   display: flex;
   border: 2px black solid;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 10px;
   padding-top: 30px;
 }
