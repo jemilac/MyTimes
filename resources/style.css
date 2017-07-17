@@ -5,17 +5,23 @@
   display: flex;
   border-bottom: 1px black solid;
   padding-bottom: 10px;
-  position: static;
+  position: fixed;
+  z-index: 1;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
+  width: 100%;
+  height: 80px;
 }
 
 .logo-container {
-  flex: 3;
   display: flex;
   align-items: center;
   padding-left: 20px;
+  border: 1px black dotted;
+  flex: 2;
+
 }
 
 .logo-container span {
@@ -24,10 +30,12 @@
 }
 
 .nav-container {
-  flex: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border: 1px black dotted;
+  flex: 1;
+
 }
 
 .nav-container a {
@@ -39,8 +47,8 @@
   display: flex;
   border: 2px black solid;
   justify-content: space-between;
-  margin-top: 10px;
-  padding-top: 30px;
+  margin: 10px 30px;
+  padding-top: 116px;
 }
 
  p {
@@ -96,4 +104,13 @@
 #cats {
   display: flex;
   background-image:url(images/img-story-1.png);
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;;
+}
+
+.stories .story {
+  width: 300px;
 }
