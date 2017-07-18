@@ -21,7 +21,6 @@
   display: flex;
   align-items: center;
   padding-left: 20px;
-  border: 1px black dotted;
   flex: 2;
 
 }
@@ -35,7 +34,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 1px black dotted;
   flex: 1;
 
 }
@@ -47,7 +45,6 @@
 /*body part*/
 .body-container {
   display: flex;
-  border: 2px black solid;
   justify-content: space-between;
   margin: 10px 30px;
   padding-top: 116px;
@@ -59,10 +56,6 @@
    color: black;
  }
 
-.column, .image-box, .text-box, .news-bite {
-  border: 2px grey solid;
-}
-
 .column-large {
   width: 630px;
 }
@@ -73,7 +66,6 @@
 
 .column-small {
   width: 240px;
-  border: 2px grey solid;
 }
 
 .image-box {
