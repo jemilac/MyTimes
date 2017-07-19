@@ -45,8 +45,10 @@
 /*body part*/
 .body-container {
   display: flex;
-  justify-content: space-between;
-  margin: 10px 30px;
+  justify-content: center;
+  margin: 0 auto;
+  /*justify-content: space-between;
+  margin: 10px 30px;*/
   padding-top: 116px;
 }
 
@@ -64,11 +66,15 @@ h2 {
 }
 
 .column-large {
-  width: 630px;
+  /*width: 630px;*/
+  margin-right: 50px;
+  min-width: 630px;
 }
 
 .column-medium {
-  width: 300px;
+  /*width: 300px;*/
+  margin-right: 50px;
+  min-width: 300px;
 }
 
 .column-small {
